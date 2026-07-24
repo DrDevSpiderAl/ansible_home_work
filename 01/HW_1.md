@@ -8,11 +8,12 @@
 
 ## Основная часть
 6. <img width="1016" height="414" alt="изображение" src="https://github.com/user-attachments/assets/24e210f9-575c-4664-98f4-ab7bcf64a9c3" />  
-7. При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем `netology`.
-8. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.
-9. Посмотрите при помощи `ansible-doc` список плагинов для подключения. Выберите подходящий для работы на `control node`.
-10. В `prod.yml` добавьте новую группу хостов с именем  `local`, в ней разместите localhost с необходимым типом подключения.
-11. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь, что факты `some_fact` для каждого из хостов определены из верных `group_vars`.
+7. <img width="1034" height="124" alt="изображение" src="https://github.com/user-attachments/assets/de53aa3f-e46d-4ed3-b209-2fa6c60892f1" />
+
+8. <img width="1040" height="466" alt="изображение" src="https://github.com/user-attachments/assets/23d2d16c-0493-4ba6-83d0-e8501bde737b" />
+
+11. <img width="1040" height="466" alt="изображение" src="https://github.com/user-attachments/assets/efc52b55-a10c-41b7-a393-ca9ab01449a5" />
+
 12. Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку `master`. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.
 13. Предоставьте скриншоты результатов запуска команд.
 
